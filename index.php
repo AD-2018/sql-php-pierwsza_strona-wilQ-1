@@ -1,29 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
-  
-    
+<title>Page Title</title>
 </head>
 <body>
-    <h1>Daniel Harazim</h1>
-    <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-wilQ-1">github</a>
-    <br>
-    <a href="praciorg.php">Organizacja i Pracownicy</a>
-    <a href="funkAgregujaca.php">Funkcje agregujące</a>
-  <a href="DataiCzas.php">Data i Czas</a>
-  <a href="formularz.html">Formularz</a>
-    <a href="danedobazy.html">Dane do bazy</a>
-</body>
-</html>
-<?php
-require_once("connect.php");
 
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
 
-
-?>
 </body>
 </html>
