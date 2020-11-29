@@ -21,7 +21,7 @@
     
   <a href="formularz.html">Formularz</a>
     
-  <a href="danedobazy.html">Dodawanie u usuwanie</a>
+  <a href="danedobazy.html">Dodawanie i usuwanie</a>
 </body>
 </html>
 <?php
