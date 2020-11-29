@@ -19,7 +19,7 @@
     
   <a href="formularz.html">Formularz</a>
     
-  <a href="danedobazy.html">Dane do bazy</a>
+  <a href="danedobazy.html">Dodawanie i usuwanie</a>
     </div>
 <?php
      require_once("connect.php");
