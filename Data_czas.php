@@ -17,7 +17,7 @@
   <a href="formularz.html">Formularz</a>
     
   <a href="danedobazy.html">Dane do bazy</a>
-    
+  </body>
 
 <?php
 require_once("connect.php");
