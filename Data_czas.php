@@ -4,14 +4,19 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-wilQ-1">Github</a>
-    <a href="index.php">Strona głowna</a>
-    <a href="praciorg.php">Organizacja Pracownicy</a>
-    <a href="funkcje_agregujace.php">Funkcje Agregujace</a>
-    <br/><br/><br/>
-    <a href="ProstyFormularz.php">Formularz</a>
-    <a href="insert.php">Insert</a>
-    <a href="daneDoBazy.php">Dane Do Bazy</a>
+  <h1>Bartosz Wilczek</h1>
+    <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-wilQ-1">github</a>
+    <br>
+    <br>
+    <br>
+    <a href="praciorg.php">Organizacja i Pracownicy</a>
+    <a href="funkcje_agregujace.php">Funkcje agregujące</a>
+    
+  <a href="Data_czas.php">Data i Czas</a>
+    
+  <a href="formularz.html">Formularz</a>
+    
+  <a href="danedobazy.html">Dane do bazy</a>
     
 
 <?php
