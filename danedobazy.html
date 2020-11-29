@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dodawanie u usuwanie</title>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Dane do Bazy</title>
+</head>
+<body>
+	Dodawanie pracownika<br>
+	<form action="insert.php" method="POST">
+			Imię<br>
+			<input type="text" name="imie"><br>
+			Dział<br>
+			<input type="number" name="dzial"></br>
+			Zarobki<br>
+			<input type="number" name="zarobki"></br>
+			Data Urodzenia<br>
+			<input type="date" name="data_urodzenia"></br>
+			<input type="submit" value="dodaj pracownika"><br>
+	</form>
+<br>
+<br>
+Usuwanie pracownika<br>
+<form action="delete.php" method="POST">
+	ID<br>
+   <input type="number" name="id_pracownicy"></br>
+   <input type="submit" value="Zapisz w zmiennej $_POST['id_pracownicy']">
+</form>
+<?php
+require "connect.php";
