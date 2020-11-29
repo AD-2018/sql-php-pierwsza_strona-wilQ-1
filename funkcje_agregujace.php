@@ -8,17 +8,19 @@
     <h1>Bartosz Wilczek</h1>
     
     <div class = "nav">
-        <a href="index.php">strona główna</a>
-        <br>
-        <a href="pracownicy_organizacja.php">pracownicy organizacja</a>
-        <br>
-        <a href="data_czas.php">Data i Czas</a>
-         <br> 
-        <a href="Formularz.html">Formularze</a>
-        <br>
-        <a href="dane_do_bazy.html">Dane do bazy</a>
-        <br>
-        <a href="delete.php">Usuwanie z bazy</a>
+        <h1>Bartosz Wilczek</h1>
+    <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-wilQ-1">github</a>
+    <br>
+    <br>
+    <br>
+    <a href="praciorg.php">Organizacja i Pracownicy</a>
+    <a href="funkcje_agregujace.php">Funkcje agregujące</a>
+    
+  <a href="Data_czas.php">Data i Czas</a>
+    
+  <a href="formularz.html">Formularz</a>
+    
+  <a href="danedobazy.html">Dane do bazy</a>
     </div>
 <?php
      require_once("connect.php");
