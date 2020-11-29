@@ -8,6 +8,7 @@
 </head>
 <body>
  <h1>Bartosz Wilczek</h1>
+    <a href="index.php">Strona główna</a>
     <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-wilQ-1">github</a>
     <br>
     <br>
