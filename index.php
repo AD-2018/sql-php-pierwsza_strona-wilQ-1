@@ -15,7 +15,7 @@
     <br>
     <br>
     <a href="praciorg.php">Organizacja i Pracownicy</a>
-    <a href="funkAgregujaca.php">Funkcje agregujące</a>
+    <a href="funkcje_agregujace.php">Funkcje agregujące</a>
     
   <a href="DataiCzas.php">Data i Czas</a>
     
