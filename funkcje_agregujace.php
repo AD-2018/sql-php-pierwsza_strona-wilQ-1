@@ -5,7 +5,7 @@
 </head>
 <body>
     <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-wilQ-1">github</a>
-    <h1>Szymon Kozak</h1>
+    <h1>Bartosz Wilczek</h1>
     
     <div class = "nav">
         <a href="index.php">strona główna</a>
@@ -22,10 +22,10 @@
     </div>
 <?php
     echo("<h3> FUNKCJE AGREGUJĄCE </h3>");
-$servername = "mysql-szymonkozak.alwaysdata.net";
-$username = "217196_jan";
-$password = "Kacpertorudamałpa_12";
-$dbname = "szymonkozak_pracownicy";
+$servername = "mysql-wilczekbartosz.alwaysdata.net";
+$username = "219956";
+$password = "Galareta123";
+$dbname = "bartoszwilczek_pracownicy";
 
 $conn = new mysqli ($servername, $username, $password, $dbname);
     echo("<h3> PIERWOWZÓR </h3>");
