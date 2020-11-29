@@ -12,6 +12,8 @@
     <h1>Bartosz Wilczek</h1>
     <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-wilQ-1">github</a>
     <br>
+    <br>
+    <br>
     <a href="pracownicyiorganizacja.php">Organizacja i Pracownicy</a>
     <a href="funkAgregujaca.php">Funkcje agregujące</a>
   <a href="DataiCzas.php">Data i Czas</a>
