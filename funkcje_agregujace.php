@@ -4,8 +4,6 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-wilQ-1">github</a>
-    <h1>Bartosz Wilczek</h1>
     
     <div class = "nav">
         <h1>Bartosz Wilczek</h1>
