@@ -11,7 +11,6 @@
     <a href="index.php">strona główna</a>
     <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-wilQ-1">github</a>
     <br>
-    <a href="index.php">Strona głowna</a>
     <a href="funkAgregujaca.php">Funkcje agregujące</a>
     <a href="DataiCzas.php">Data i Czas</a>
      <a href="formularz.html">Formularz</a>
