@@ -24,7 +24,7 @@
 
 <?php
 	echo("Usunięto pracownika");
-	
+<br>
 	echo("<ul>");
 	echo("<li>".$_POST["firstname"]);
 	echo("<li>".$_POST["lastname"]);
