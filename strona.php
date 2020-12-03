@@ -23,7 +23,7 @@
 
 
 <?php
-	echo("jesteś na stronie.php");
+	echo("Usunięto pracownika");
 	
 	echo("<ul>");
 	echo("<li>".$_POST["firstname"]);
