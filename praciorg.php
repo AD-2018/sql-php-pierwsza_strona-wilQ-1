@@ -84,7 +84,7 @@
 
     $result = mysqli_query($conn, $sql);
 
-    
+    echo("<h1>Zadanie 4</h1>");
     echo("<h2>".$sql."</h2>");
 
     echo("<table border='1'>");
