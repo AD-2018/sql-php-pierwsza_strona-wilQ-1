@@ -21,10 +21,11 @@
   <a href="danedobazy.html">Dane do bazy</a>
     </div>
 
-
+<hr>
+	
 <?php
 	echo("Usunięto pracownika");
-<hr>
+
 	echo("<ul>");
 	echo("<li>".$_POST["firstname"]);
 	echo("<li>".$_POST["lastname"]);
