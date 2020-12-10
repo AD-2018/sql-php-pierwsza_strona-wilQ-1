@@ -23,16 +23,16 @@
 	</form>
 <br>
 <br>
-<br> Usuwanie pracownika 
+<br> Usuń pracownika
 <form action="delete.php" method="POST">
    <input type="number" name="id_pracownicy"><br>
    <input type="submit" value="Usuń pracownika"><br>
 </form>
 <?php
 require "connect.php";
-$conn= new mysqli($servername,$username,$password,$dbname);
+$conn=new mysqli($servername,$username,$password,$dbname);
 
-$sql ="select * from pracownicy"; 
+$sql="select * from pracownicy"; 
 echo("<h3>Tabela pracowników:</h3>"); 
     echo("<li>".$sql);
 $result = mysqli_query($conn, $sql);
@@ -47,7 +47,7 @@ echo('<td>'.$row['id_pracownicy'].'</td><td>'.$row['imie'].'</td><td>'.$row['dzi
 <input type="submit" value="Usuń Pracownika">
 </form>
 </td>');
-  echo("</tr>"); } 
+echo("</tr>"); } 
 echo('</table>'); 
 ?>
 </body>
