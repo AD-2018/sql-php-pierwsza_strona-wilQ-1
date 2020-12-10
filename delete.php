@@ -26,7 +26,7 @@ $sql = "DELETE FROM pracownicy WHERE id_pracownicy=".$_POST['id_pracownicy'];
 echo $sql;
 
 if ($conn->query($sql) === TRUE) {
-  echo "<br>Record deleted successfully";
+  header ('Location:https://php-wilczek.herokuapp.com/danedobazy.php');
 } else {
   echo "Error: " . $sql . "<br>" . $conn->error;
 }
