@@ -12,18 +12,18 @@
     <h1>Bartosz Wilczek</h1>
     <nav>
         <ul>
-    <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-wilQ-1">github</a>
+            <li><a href="https://github.com/AD-2018/sql-php-pierwsza_strona-wilQ-1">github</a> </li>
     <br>
     <br>
     <br>
-    <a href="praciorg.php">Organizacja i Pracownicy</a>
-    <a href="funkcje_agregujace.php">Funkcje agregujące</a>
+            <li><a href="praciorg.php">Organizacja i Pracownicy</a></li>
+            <li><a href="funkcje_agregujace.php">Funkcje agregujące</a></li>
     
-  <a href="Data_czas.php">Data i Czas</a>
+            <li><a href="Data_czas.php">Data i Czas</a></li>
     
-  <a href="formularz.html">Formularz</a>
+            <li><a href="formularz.html">Formularz</a></li>
     
-  <a href="danedobazy.html">Dodawanie i usuwanie</a>
+            <li><a href="danedobazy.html">Dodawanie i usuwanie</a></li>
 </nav>
 </ul>
 </body>
