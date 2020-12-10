@@ -42,6 +42,13 @@ while($row=mysqli_fetch_assoc($result)){
   echo("<tr>");
 echo('<td>'.$row['id_pracownicy'].'</td><td>'.$row['imie'].'</td><td>'.$row['dzial'].'</td><td>'.$row['zarobki'].'</td><td>'.$row['data_urodzenia'].'</td>'.
 '<td>
+<form action="delete.php" method="POST">
+<input name="id_pracownicy" value="'.$row['id_pracownicy'].'" hidden>
+<input type="submit" value="Usuń Pracownika">
+</form>
+</td>');
+  echo("</tr>"); } 
+echo('</table>'); 
 ?>
 </body>
 </html>
