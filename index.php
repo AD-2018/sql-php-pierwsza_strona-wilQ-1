@@ -18,8 +18,8 @@
             <li><a href="Data_czas.php">Data i Czas</a></li>
             <li><a href="formularz.html">Formularz</a></li>
             <li><a href="danedobazy.html">Dodawanie i usuwanie</a></li>
-</nav>
-</ul>
+        </ul>
+    </nav>
 </body>
 </html>
 <?php
