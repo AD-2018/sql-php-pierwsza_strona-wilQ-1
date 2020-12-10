@@ -1,6 +1,15 @@
+<!DOCTYPE html>
+<html>
 <head>
-  <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">
 </head>
+<body>
+        <h1>Bartosz Wilczek</h1>
+    <nav>
+    <ul>
+      <li><a href="index.php">Strona główna</li></a>
+    </ul>
+    </nav>
 <?php
 echo "<li>".$_POST['imie'];
 echo "<li>".$_POST['dzial'];
