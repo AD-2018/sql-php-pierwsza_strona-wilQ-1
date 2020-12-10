@@ -4,23 +4,18 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <div class = "nav">
         <h1>Bartosz Wilczek</h1>
-        <a href="index.php">Strona główna</a>
-    <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-wilQ-1">github</a>
-    <br>
-    <br>
-    <br>
+    <nav>
+    <ul>
+    <a href="index.php">Strona główna</a>
+    <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-wilQ-1">github</a
     <a href="praciorg.php">Organizacja i Pracownicy</a>
     <a href="funkcje_agregujace.php">Funkcje agregujące</a>
-    
-  <a href="Data_czas.php">Data i Czas</a>
-    
-  <a href="formularz.html">Formularz</a>
-    
-  <a href="danedobazy.html">Dodawanie i usuwanie</a>
-    </div>
+    <a href="Data_czas.php">Data i Czas</a>
+    <a href="formularz.html">Formularz</a>
+    <a href="danedobazy.html">Dodawanie i usuwanie</a>
+    </ul>
+    </nav>
 <?php
      require_once("connect.php");
     
