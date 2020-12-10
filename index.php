@@ -17,7 +17,7 @@
             <li><a href="funkcje_agregujace.php">Funkcje agregujące</li></a>
             <li><a href="Data_czas.php">Data i Czas</li></a>
             <li><a href="formularz.html">Formularz</li></a>
-            <li><a href="danedobazy.html">Dodawanie i usuwanie</li></a>
+            <li><a href="danedobazy.php">Dodawanie i usuwanie</li></a>
         </ul>
     </nav>
 </body>
