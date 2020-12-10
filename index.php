@@ -10,6 +10,8 @@
 </head>
 <body>
     <h1>Bartosz Wilczek</h1>
+    <nav>
+        <ul>
     <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-wilQ-1">github</a>
     <br>
     <br>
@@ -22,6 +24,8 @@
   <a href="formularz.html">Formularz</a>
     
   <a href="danedobazy.html">Dodawanie i usuwanie</a>
+</nav>
+</ul>
 </body>
 </html>
 <?php
