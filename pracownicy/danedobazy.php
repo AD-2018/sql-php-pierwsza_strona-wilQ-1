@@ -14,7 +14,7 @@
 	<li><a href="/pracownicy/praciorg.php">Organizacja i Pracownicy</a></li>
     	<li><a href="/pracownicy/funkcje_agregujace.php">Funkcje agregujące</a></li>
     	<li><a href="/pracownicy/Data_czas.php">Data i Czas</a></li>
-    	<li><a href="/pracownicy/formularz.html">Formularz</a></li>
+    	<li><a href="/inne/formularz.html">Formularz</a></li>
 	</ul>
 	</nav>
 <body>
