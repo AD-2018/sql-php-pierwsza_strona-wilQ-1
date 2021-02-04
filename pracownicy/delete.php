@@ -7,7 +7,7 @@
         <h1>Bartosz Wilczek</h1>
     <nav>
     <ul>
-            <li><a href="danedobazy.php">Wróć</li></a>
+            <li><a href="../pracownicy/danedobazy.php">Wróć</li></a>
     </ul>
     </nav>
 <?php
