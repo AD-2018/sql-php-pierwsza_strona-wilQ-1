@@ -7,12 +7,12 @@
   <h1>Bartosz Wilczek</h1>
   <nav>
     <ul>
-    <li><a href="pracownicy/index.php">Strona główna</a></li>
-    <li><a href="https://github.com/AD-2018/sql-php-pierwsza_strona-wilQ-1">github</a></li>
-    <li><a href="pracownicy/praciorg.php">Organizacja i Pracownicy</a></li>
-      <li><a href="pracownicy/funkcje_agregujace.php">Funkcje agregujące</a></li>
-    <li><a href="pracownicy/formularz.html">Formularz</a></li>
-    <li><a href="pracownicy/danedobazy.php">Dodawanie i usuwanie</a></li>
+    <li><a href="/pracownicy/index.php">Strona główna</a></li>
+    <li><a href="/pracownicy/https://github.com/AD-2018/sql-php-pierwsza_strona-wilQ-1">github</a></li>
+    <li><a href="/pracownicy/praciorg.php">Organizacja i Pracownicy</a></li>
+      <li><a href="/pracownicy/funkcje_agregujace.php">Funkcje agregujące</a></li>
+    <li><a href="/pracownicy/formularz.html">Formularz</a></li>
+    <li><a href="/pracownicy/danedobazy.php">Dodawanie i usuwanie</a></li>
     </ul>
   </nav>
   </body>
