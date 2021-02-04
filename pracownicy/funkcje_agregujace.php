@@ -7,7 +7,7 @@
         <h1>Bartosz Wilczek</h1>
     <nav>
     <ul>
-            <li><a href="../pracownicy/index.php">Strona główna</li></a>
+            <li><a href="../index.php">Strona główna</li></a>
             <li><a href="../pracownicy/https://github.com/AD-2018/sql-php-pierwsza_strona-wilQ-1">github</li></a>
             <li><a href="../pracownicy/praciorg.php">Organizacja i Pracownicy</li></a>
             <li><a href="../pracownicy/Data_czas.php">Data i Czas</li></a>
