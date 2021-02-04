@@ -11,7 +11,7 @@
             <li><a href="../pracownicy/https://github.com/AD-2018/sql-php-pierwsza_strona-wilQ-1">github</li></a>
             <li><a href="../pracownicy/praciorg.php">Organizacja i Pracownicy</li></a>
             <li><a href="../pracownicy/Data_czas.php">Data i Czas</li></a>
-            <li><a href="../pracownicy/formularz.html">Formularz</li></a>
+            <li><a href="../inne/formularz.html">Formularz</li></a>
             <li><a href="../pracownicy/danedobazy.php">Dodawanie i usuwanie</li></a>
     </ul>
     </nav>
