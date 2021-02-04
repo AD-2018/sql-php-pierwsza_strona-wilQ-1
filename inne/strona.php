@@ -6,19 +6,19 @@
 
 <div class = "nav">
 <h1>Bartosz Wilczek</h1>
-    <a href="index.php">Strona główna</a>
+    <a href="../pracownicy/index.php">Strona główna</a>
     <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-wilQ-1">github</a>
     <br>
     <br>
     <br>
-    <a href="praciorg.php">Organizacja i Pracownicy</a>
-    <a href="funkcje_agregujace.php">Funkcje agregujące</a>
+    <a href="../pracownicy/praciorg.php">Organizacja i Pracownicy</a>
+    <a href="../pracownicy/funkcje_agregujace.php">Funkcje agregujące</a>
     
-  <a href="Data_czas.php">Data i Czas</a>
+  <a href="../pracownicy/Data_czas.php">Data i Czas</a>
     
-  <a href="formularz.html">Formularz</a>
+  <a href="../pracownicy/formularz.html">Formularz</a>
     
-  <a href="danedobazy.html">Dane do bazy</a>
+  <a href="../pracownicy/danedobazy.html">Dane do bazy</a>
     </div>
 
 <hr>
