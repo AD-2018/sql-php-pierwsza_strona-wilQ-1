@@ -10,12 +10,12 @@
  <h1>Bartosz Wilczek</h1>
     <nav>
         <ul>
-            <li><a href="index.php">Strona główna</a></li>
+            <li><a href="../pracownicy/index.php">Strona główna</a></li>
             <li><a href="https://github.com/AD-2018/sql-php-pierwsza_strona-wilQ-1">github</a></li>
-            <li><a href="funkcje_agregujace.php">Funkcje agregujące</a></li>
-            <li><a href="Data_czas.php">Data i Czas</a></li>
-            <li><a href="formularz.html">Formularz</a></li>
-            <li><a href="danedobazy.php">Dodawanie i usuwanie</a></li>
+            <li><a href="../praconwicy/funkcje_agregujace.php">Funkcje agregujące</a></li>
+            <li><a href="../pracownicy/Data_czas.php">Data i Czas</a></li>
+            <li><a href="../pracownicy/formularz.html">Formularz</a></li>
+            <li><a href="../pracownicy/danedobazy.php">Dodawanie i usuwanie</a></li>
         </ul>
     </nav>
 </body>
