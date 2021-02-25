@@ -9,7 +9,7 @@
 require_once("connect.php");
 
 echo("<br>zad. 1<br>");
-$sql = "SELECT * FROM biblautor";
+$sql = "SELECT * FROM biblAutor";
 echo($sql);
 $result = mysqli_query($conn, $sql);
 if ( $result) {
