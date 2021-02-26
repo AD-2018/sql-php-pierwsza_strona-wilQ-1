@@ -18,7 +18,7 @@
             <li><a href="/pracownicy/Data_czas.php">Data i Czas</li></a>
             <li><a href="/inne/formularz.html">Formularz</li></a>
             <li><a href="/pracownicy/danedobazy.php">Dodawanie i usuwanie</li></a>
-            <li><a href="/biblioteka/biblio.php">Dodawanie i usuwanie</li></a>
+            <li><a href="/biblioteka/biblio.php">Biblioteka</li></a>
         </ul>
     </nav>
 </body>
