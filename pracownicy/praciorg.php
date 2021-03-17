@@ -25,7 +25,10 @@
     require_once("connect.php");
 
 
-    ".date("Y-m-d h:i:sa", $d) . "
+    $data=date("Y-m-d");
+    $czas=date("H:i:sa");
+    
+    echo "Stronę wyświetlono dnia $data o godzinie $czas";
 
     $sql = "SELECT * FROM pracownicy, organizacja WHERE id_org = dzial";
 
