@@ -21,7 +21,11 @@
 </body>
 </html>
 <?php
+
     require_once("connect.php");
+
+    $data=date("Y-m-d");
+    $czas=date("H:i");
 
     $sql = "SELECT * FROM pracownicy, organizacja WHERE id_org = dzial";
 
