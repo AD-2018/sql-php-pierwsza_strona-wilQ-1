@@ -25,7 +25,7 @@
     require_once("connect.php");
 
 
-    $date("Y-m-d h:i:sa", $d)
+    ".date("Y-m-d h:i:sa", $d) . "
 
     $sql = "SELECT * FROM pracownicy, organizacja WHERE id_org = dzial";
 
