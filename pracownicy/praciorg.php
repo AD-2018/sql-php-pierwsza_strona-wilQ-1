@@ -24,7 +24,6 @@
 
     require_once("connect.php");
 
-
     $data=date("Y-m-d");
     $czas=date("H:i:sa");
     
