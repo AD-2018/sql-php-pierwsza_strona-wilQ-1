@@ -16,7 +16,7 @@ grid-template-areas:
 header {
 background-color: red;
 grid-area: a;
-height: 15vh;
+height: 33vh;
 }
 nav {
 background-color: orange;
@@ -25,7 +25,7 @@ grid-area: b;
 main {
 background-color: lightblue;
 grid-area: c;
-height: 75vh;
+height: 34vh;
 }
 aside{
 grid-area: e;
@@ -34,5 +34,5 @@ background-color: pink;
 footer {
 background-color: lightgreen;
 grid-area: d;
-height: 10vh;
+height: 33vh;
 }
