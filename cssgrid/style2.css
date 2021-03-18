@@ -7,7 +7,7 @@ background-color: lightskyblue;
 padding: 5px;
 height: 100vh;
 display: grid;
-grid-template-columns: 1fr 1fr 1.5fr;
+grid-template-columns: 1fr 1.5fr 1fr;
 grid-template-areas:
     "a a a"
     "b c e"
