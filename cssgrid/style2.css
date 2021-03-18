@@ -9,9 +9,9 @@ height: 100vh;
 display: grid;
 grid-template-columns: 1fr 1.5fr 1fr;
 grid-template-areas:
-    "a a a"
+    "b a e"
     "b c e"
-    "d d e";
+    "b d e";
 }
 header {
 background-color: red;
