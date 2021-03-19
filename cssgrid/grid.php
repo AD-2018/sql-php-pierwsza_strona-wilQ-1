@@ -1,32 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF=8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-<title>css trening</title>
-<link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="/style.css">
+<title>CSS Grid</title>
 </head>
 <body>
-<div class="container">
-    <header>
-        <h1>Wprowadzenie do CSS'a </h1>
-    </header>
-    <nav>
-    jakiś tekst
-    </nav>
-
-    <main>
-    coś tam
-    </main>
-
-    <aside>
-    jeszcze coś innego
-    </aside>
-
-    <footer>
-    i koniec
-    </footer>
-   </div>
-</body>
-</html>
+<div class= "imie">    
+<a href="https://github.com/AD-2018/sql-php-pierwsza_strona-DanielHarazim">github</a>
+<h1>Bartosz Wilczek</h1>
+</div>
+    <div class = "nav">
+        <a class="panel" href="/index.php">Wróć</a>
+        <a class="panel" href="/cssgrid/strona1/grid.php">STRONA 1</a>
+        <a class="panel" href="/cssgrid/strona2/grid.php">STRONA 2</a>
+        <a class="panel" href="/cssgrid/strona3/grid.php">STRONA 3</a>
+        <br>
+    </div>
+    </body>
+    </html>
