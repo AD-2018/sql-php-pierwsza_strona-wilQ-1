@@ -6,7 +6,7 @@
 </head>
 <body>
 <div class= "imie">    
-<a href="https://github.com/AD-2018/sql-php-pierwsza_strona-DanielHarazim">github</a>
+<a href="https://github.com/AD-2018/sql-php-pierwsza_strona-wilQ1">github</a>
 <h1>Bartosz Wilczek</h1>
 </div>
     <div class = "nav">
