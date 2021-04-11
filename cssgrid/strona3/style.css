@@ -1,20 +1,36 @@
-<body>
-    <div class="container">
-        <header>
-            <h1>CSS Grid</h1>
-        </header>
-        <nav>
-            1
-        </nav>
-        <main>
-            2
-        </main>
-        <aside>
-            3
-        </aside>
-        <footer>
-            4
-        </footer>
-    
-</body>
-</html>
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  .container {
+    background-color: rgb(50, 117, 205);
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      "a b b"
+      "a c d"
+      "a e e";
+  }
+  header {
+    background-color: red;
+    grid-area: a;
+  }
+  nav {
+    background-color: lime;
+    grid-area: b;
+  }
+  main {
+    background-color: lightblue;
+    grid-area: c;
+  }
+  aside {
+    background-color: yellow;
+    grid-area: e;
+  }
+  footer {
+    background-color: orange;
+    grid-area: d;
+  }
+  
+
