@@ -1,7 +1,7 @@
 .g {
-    background-color: black;
+    background-color: darkslategrey;
    
-    height: 40vh;
+    height: 100vh;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-areas: "a a b b b b" "a a c c f f" "a a d e f f";
