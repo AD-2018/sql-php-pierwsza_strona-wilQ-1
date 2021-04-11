@@ -1,7 +1,7 @@
 .g {
     background-color: black;
    
-    height: 100vh;
+    height: 40vh;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-areas: "a a b b b b" "a a c c f f" "a a d e f f";
@@ -23,6 +23,7 @@
     background-color: green;
     grid-area: c;
     margin: 3px;
+}
 
 .d {
     background-color: yellow;
