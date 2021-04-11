@@ -1,5 +1,5 @@
 .g {
-    background-color: green;
+    background-color: black;
    
     height: 100vh;
     display: grid;
@@ -10,35 +10,34 @@
 .a {
     background-color: red;
     grid-area: a;
-    margin: 5px;
+    margin: 3px;
 }
 
 .b {
-    background-color: lime;
+    background-color: blue;
     grid-area: b;
-    margin: 5px;
+    margin: 3px;
 }
 
 .c {
-    background-color: lightskyblue;
+    background-color: green;
     grid-area: c;
-    margin: 5px;
-}
+    margin: 3px;
 
 .d {
     background-color: yellow;
     grid-area: d;
-    margin: 5px;
+    margin: 3px;
 }
 
 .e {
-    background-color: yellow;
+    background-color: blueviolet;
     grid-area: e;
-    margin: 5px;
+    margin: 3px;
 }
 
 .f {
     background-color: orange;
     grid-area: f;
-    margin: 5px;
+    margin: 3px;
 }
