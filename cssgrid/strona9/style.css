@@ -1,1 +1,36 @@
+.h {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: "b b b b b b"  "a a c c c d"  "e e e e e e" 
+}
 
+.a {
+    background-color: goldenrod;
+    grid-area: a;
+    margin: 5px;
+}
+
+.b {
+    background-color: lightskyblue;
+    grid-area: b;
+    margin: 5px;
+}
+
+.c {
+    background-color: lightskyblue;
+    grid-area: c;
+    margin: 5px;
+}
+
+.d {
+    background-color: lime;
+    grid-area: d;
+    margin: 5px;
+}
+
+.e {
+    background-color: red;
+    grid-area: e;
+    margin: 5px;
+}
