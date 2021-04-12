@@ -19,7 +19,7 @@
             <li><a href="/inne/formularz.html">Formularz</li></a>
             <li><a href="/pracownicy/danedobazy.php">Dodawanie i usuwanie</li></a>
             <li><a href="/biblioteka/biblio.php">Biblioteka</li></a>
-            <li><a href="/cssgrid/grid.php">CSS</li></a>
+            <li><a href="/cssgrid/index.php">CSS</li></a>
         </ul>
     </nav>
 </body>
