@@ -12,19 +12,19 @@
 <body>
     <div class="container">
         <header>
-            <h1>CSS Grid</h1>
+            <h1>1</h1>
         </header>
         <nav>
-            1
+            2
         </nav>
         <main>
-            2
+            3
         </main>
         <aside>
-            3
+            4
         </aside>
         <footer>
-            4
+            5
         </footer>
     
 </body>
