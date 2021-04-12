@@ -13,7 +13,7 @@
 }
 
 .b {
-    background-color: lime;
+    background-color: goldenrod;
     grid-area: b;
     margin: 5px;
 }
@@ -25,13 +25,13 @@
 }
 
 .d {
-    background-color: orange;
+    background-color: yellow;
     grid-area: d;
     margin: 5px;
 }
 
 .e {
-    background-color: yellow;
+    background-color: orange;
     grid-area: e;
     margin: 5px;
 }
