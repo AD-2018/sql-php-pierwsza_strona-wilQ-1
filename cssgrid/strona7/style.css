@@ -1,1 +1,49 @@
+.h {
+    background-color: darkorange;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "a b c" "a d e" "a f g";
+}
 
+.a {
+    background-color: goldenrod;
+    grid-area: a;
+    margin: 5px;
+}
+
+.b {
+    background-color: red;
+    grid-area: b;
+    margin: 5px;
+}
+
+.c {
+    background-color: lightskyblue;
+    grid-area: c;
+    margin: 5px;
+}
+
+.d {
+    background-color: lime;
+    grid-area: d;
+    margin: 5px;
+}
+
+.e {
+    background-color: yellow;
+    grid-area: e;
+    margin: 5px;
+}
+
+.f {
+    background-color: orange;
+    grid-area: f;
+    margin: 5px;
+}
+
+.g {
+    background-color: yellow;
+    grid-area: g;
+    margin: 5px;
+}
