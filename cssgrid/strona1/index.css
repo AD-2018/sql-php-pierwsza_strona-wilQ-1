@@ -3,7 +3,7 @@
     padding: 1;
 }
 .container {
-    background-color: goldenrod;
+    background-color: green;
     paddomg: 5px;
     height: 120vh;
     display: grid;
@@ -15,7 +15,7 @@
 }
 header {
     margin: 4px;
-    background-color:aqua;
+    background-color:red;
     grid-area: a;
     height: 120vh;      
 }
@@ -27,19 +27,19 @@ nav {
 }
 main {
     margin: 4px;
-background-color: red;
+background-color: aqua;
 grid-area: c;
 height: 40vh;
 }
 aside {
     margin: 4px;
     grid-area: e;
-    background-color: orange;
+    background-color: yellow;
     height: 40vh;        
 }
 footer {
     margin: 4px;
-background-color: yellow;
+background-color: orange;
 grid-area: d;
 height: 120vh;
 }
