@@ -23,7 +23,12 @@
                     }
 
                     echo('<table border="1">');
-                    echo('<th>imie_nazwisko</th><th>PRAWNIK</th><th>SPRAWA</th>');
+                    echo('<th>imie_nazwisko</th><th>klasa</th>');
+                    }
+                    while($row=mysqli_fetch_assoc($result)){
+                    echo('<tr>');
+                    echo('<td>'.$row['imie_nazwisko'].'</td><td>'.$row['klasa'].'</td>');
+                    echo('</tr>');
                     }
 
                     echo('</table>');
