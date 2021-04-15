@@ -76,7 +76,7 @@
                     echo('<th>ID</th><th>Klasa</th>');
                     while($row=mysqli_fetch_assoc($result)){
                     echo('<tr>');
-                    echo('<td>'.$row['id'].'</td><td>'.$row['i_klasa'].'</td>');
+                    echo('<td>'.$row['Id'].'</td><td>'.$row['i_klasa'].'</td>');
                     echo('</tr>');
                     }
                     echo('</table>');
