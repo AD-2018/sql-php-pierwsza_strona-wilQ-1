@@ -11,7 +11,7 @@
 </div>
     <div class = "nav">
         <a class="panel" href="/index.php">Wróć</a>
-        <a class="panel" href="/cssgrid/strona1/grid.php">STRONA 1</a>
+        <a class="panel" href="/cssgrid/strona1/grid.html">STRONA 1</a>
         <a class="panel" href="/cssgrid/strona2/grid.php">STRONA 2</a>
         <a class="panel" href="/cssgrid/strona3/index.php">STRONA 3</a>
         <a class="panel" href="/cssgrid/strona4/index.php">STRONA 4</a>
