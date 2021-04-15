@@ -7,7 +7,7 @@
    <body>                              
        <div class="container">
        <div class="jeden">
-           costam
+           echo "arbajciok"
        <?php
          require_once("../../connect.php");
 
