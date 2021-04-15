@@ -9,22 +9,24 @@
    <link rel="stylesheet" href="style.css">
    </head>  
    <body>
-       <div class="container">
-        <header>
-            <h1>Strona 1</h1>
-        </header>
-        <nav>
-        2
-        </nav>
-        <main>
-        3
-        </main>
-         <aside>
-           5
-      </aside>
-        <footer>
-           4
-        </footer>
-    </div>
+                                     
+       <div class="1">
+        <?php
+         require_once("../../connect.php");
+
+           echo("<br>Nauczyciele i klasy<br>");
+                    $sql = "SELECT imie_nazwisko, klasa from Klasy, Nauczyciele where id_klasy=Id order by klasa asc";
+                    $result = mysqli_query($conn, $sql);
+                    if ( $result) {
+                    } else {
+                    echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+                    }
+
+                    echo('<table border="1">');
+                    echo('<th>imie_nazwisko</th><th>PRAWNIK</th><th>SPRAWA</th>');
+                    }
+
+                    echo('</table>');
+                  ?>
 </body>
 </html>
