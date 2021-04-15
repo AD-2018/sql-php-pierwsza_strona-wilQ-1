@@ -9,7 +9,7 @@
             <div class="hh">
                 <?php
                     require_once("connect.php");
-
+                     
                     echo("<br><br>");
                     $sql = "SELECT imie_nazwisko, klasa from Klasy, Nauczyciele where id_klasy=Id order by klasa asc";
 
