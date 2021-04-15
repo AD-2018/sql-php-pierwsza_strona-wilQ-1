@@ -1,18 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <a class="panel" href="/cssgrid/index.php">Wróć</a>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0: />
-    <meta http=equiv="X-UA-Compatible" content="ie=edge" />
-    <title>CSS grid</title>
-   <link rel="stylesheet" href="style.css">
-   </head>  
-  
-<body>
-    <div class="container">
-      <div class="hh">                                        
-       <?php
+        <title>Bartosz Wilczek</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <div class="hh">
+                <?php
                     require_once("connect.php");
                      
                     echo("<br>select * from Autorzy<br>");
@@ -37,10 +32,10 @@
 
                 ?>
             </div>
-            <div class="ww">
+            <div class="ee">
                 1
             </div>
-            <div class="qq">
+            <div class="yy">
                 <?php
                     require_once("connect.php");
 
@@ -60,12 +55,14 @@
                     echo('</tr>');
                     }
                     echo('</table>');
+
+
                 ?>
             </div>
-            <div class="ee">
-                4
+            <div class="ww">
+            3
             </div>
-            <div class="yy">
+            <div class="qq">
                 <?php
                     require_once("connect.php");
 
@@ -85,7 +82,11 @@
                     echo('</tr>');
                     }
                     echo('</table>');
+
                 ?>
+            </div>
+            <div class="zolte">
+                5
             </div>
         </div>
     </body>
