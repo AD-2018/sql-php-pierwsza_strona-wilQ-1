@@ -1,19 +1,14 @@
-  
 <!DOCTYPE html>
 <html lang="en">
     <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0: />
-    <meta http=equiv="X-UA-Compatible" content="ie=edge" />
-     <title>Bartosz Wilczek</title>
-   <link rel="stylesheet" href="style.css">
-   </head>  
-   <body>
-       <div class="container">
-            <header>
-      <div class="tabela1">
-      <?php
-    require_once("connect.php");
+        <title>Bartosz Wilczek</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <div class="hh">
+                <?php
+                     require_once("connect.php");
                      
                     echo("<br>select * from Autorzy<br>");
                     $sql = "select * from Autorzy";
@@ -34,15 +29,16 @@
                     }
 
                     echo('</table>');
-?>
-        </div>
-      </header>
-      <nav>
-      2
-      </nav>
-      <main>
-      <?php
-    require_once("connect.php");
+
+
+                ?>
+            </div>
+            <div class="ee">
+                1
+            </div>
+            <div class="yy">
+                <?php
+                    require_once("connect.php");
 
                     echo("<br>select * from Tytul<br>");
                     $sql = "select * from Tytul";
@@ -60,15 +56,14 @@
                     echo('</tr>');
                     }
                     echo('</table>');
-?>
-      </main>
-      <footer>
-      4
-      </footer>
-      <aside>
-      <div class="tabela1">
-      <?php
-    require_once("connect.php");
+                ?>
+            </div>
+            <div class="ww">
+            3
+            </div>
+            <div class="qq">
+                <?php
+                    require_once("connect.php");
 
                     echo("<br>select i_d, Autor, Tytul from Autorzy, Tytul where i_d=ID order by Autor asc;<br>");
                     $sql = "select i_d, Autor, Tytul from Autorzy, Tytul where i_d=ID order by Autor asc;";
@@ -86,9 +81,11 @@
                     echo('</tr>');
                     }
                     echo('</table>');
-?>
+                ?>
+            </div>
+            <div class="zolte">
+                5
+            </div>
         </div>
-      </aside>
-    </div>
-  </body>
+    </body>
 </html>
