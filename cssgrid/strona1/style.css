@@ -14,27 +14,27 @@
     "a e d";
 }
  .hh{
-    background-color:red;
+    background-color:lightgreen;
     grid-area: a;
     height: 100vh; 
 }
 .ww{
-    background-color: lightgreen;
+    background-color: red;
     grid-area: b;
     height: 33vh;
 }
 .qq{
-background-color: aqua;
+background-color: yellow;
 grid-area: c;
 height: 33vh;
 }
  .ee{
     grid-area: e;
-    background-color: green;
+    background-color: aqua;
     height: 33vh;
 }
     .yy{
-    background-color: yellow;   
+    background-color: green;   
     grid-area: d;
     height: 100vh;
     }
