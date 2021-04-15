@@ -21,7 +21,7 @@ height: 100vh;
 .yy{
     background-color: lightgreen;
     grid-area: b;
-    height: 20vh;
+    height: 30vh;
     width: 100%;
 }
 .ww {
@@ -32,15 +32,15 @@ height: 40vh;
 .qq {
     grid-area: d;
     background-color: orange;
-    height: 80vh;
+    height: 70vh;
 }
 .ee{
 background-color: yellow;
 grid-area: e;
-height: 40vh;
+height: 30vh;
 }
 .zolte {
 background-color: yellow;
 grid-area: f;
-height: 40vh;
+height: 30vh;
 }
