@@ -7,7 +7,7 @@
     </head>
     <body>
         <div class="container">
-            <div class="hh">
+            <div class="skrypt1">
                 <?php
                     require_once("connect.php");
                      
@@ -36,7 +36,7 @@
             <div class="ww">
                 1
             </div>
-            <div class="qq">
+            <div class="skrypt2">
                 <?php
                     require_once("connect.php");
 
@@ -61,7 +61,7 @@
             <div class="ee">
                 4
             </div>
-            <div class="yy">
+            <div class="skrypt3">
                 <?php
                     require_once("connect.php");
 
