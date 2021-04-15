@@ -9,28 +9,23 @@
             <div class="hh">
                 <?php
                      require_once("connect.php");
-                     
-                    echo("<br>select * from Autorzy<br>");
-                    $sql = "select * from Autorzy";
+
+                    echo("<br>Podzespoly<br>");
+                    $sql = "SELECT * FROM podzespoly";
 
                     $result = mysqli_query($conn, $sql);
                     if ( $result) {
                     } else {
                     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
                     }
-
                     echo('<table border="1">');
-                    echo('<th>ID</th><th>Autor</th>');
-
+                    echo('<th>id</th><th>podzesppol</th>');
                     while($row=mysqli_fetch_assoc($result)){
                     echo('<tr>');
-                    echo('<td>'.$row['ID'].'</td><td>'.$row['Autor'].'</td>');
+                    echo('<td>'.$row['id'].'</td><td>'.$row['podzespol'].'</td>');
                     echo('</tr>');
                     }
-
                     echo('</table>');
-
-
                 ?>
             </div>
             <div class="ee">
@@ -40,19 +35,19 @@
                 <?php
                     require_once("connect.php");
 
-                    echo("<br>select * from Tytul<br>");
-                    $sql = "select * from Tytul";
-
+                    echo("<br>PRODUCENT<br>");
+                    $sql = "SELECT * FROM producent";
+    
                     $result = mysqli_query($conn, $sql);
                     if ( $result) {
                     } else {
                     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
                     }
                     echo('<table border="1">');
-                    echo('<th>ID</th><th>Tytul</th>');
+                    echo('<th>ID</th><th>producent</th>');
                     while($row=mysqli_fetch_assoc($result)){
                     echo('<tr>');
-                    echo('<td>'.$row['ID'].'</td><td>'.$row['Tytul'].'</td>');
+                    echo('<td>'.$row['numer'].'</td><td>'.$row['producent'].'</td>');
                     echo('</tr>');
                     }
                     echo('</table>');
@@ -65,22 +60,26 @@
                 <?php
                     require_once("connect.php");
 
-                    echo("<br>select i_d, Autor, Tytul from Autorzy, Tytul where i_d=ID order by Autor asc;<br>");
-                    $sql = "select i_d, Autor, Tytul from Autorzy, Tytul where i_d=ID order by Autor asc;";
+                    echo("<br>Producent i Podzespol<br>");
+                    $sql = "SELECT producent, podzespol from podzespoly, producent where numer=Id order by producent";
 
                     $result = mysqli_query($conn, $sql);
                     if ( $result) {
                     } else {
                     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
                     }
+
                     echo('<table border="1">');
-                    echo('<th>ID</th><th>Autor</th><th>Tytul</th');
+                    echo('<th>ID</th><th>Producent</th><th>Podzespol</th>');
+
                     while($row=mysqli_fetch_assoc($result)){
                     echo('<tr>');
-                    echo('<td>'.$row['i_d'].'</td><td>'.$row['Autor'].'</td><td>'.$row['Tytul'].'</td>');
+                    echo('<td>'.$row['numer'].'</td><td>'.$row['producent'].'</td><td>'.$row['podzespol'].'</td>');
                     echo('</tr>');
                     }
+
                     echo('</table>');
+
                 ?>
             </div>
             <div class="zolte">
