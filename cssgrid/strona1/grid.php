@@ -10,7 +10,7 @@
                 <?php
                     require_once("connect.php");
                      
-                    echo("<br><br>");
+                    echo("<br>SELECT imie_nazwisko, klasa from Klasy, Nauczyciele where id_klasy=Id order by klasa asc<br>");
                     $sql = "SELECT imie_nazwisko, klasa from Klasy, Nauczyciele where id_klasy=Id order by klasa asc";
 
                     $result = mysqli_query($conn, $sql);
@@ -39,7 +39,7 @@
                 <?php
                     require_once("connect.php");
 
-                    echo("<br>SPRAWY<br>");
+                    echo("<br>SELECT id_naucz, imie_nazwisko  FROM Nauczyciele<br>");
                     $sql = "SELECT id_naucz, imie_nazwisko  FROM Nauczyciele";
 
                     $result = mysqli_query($conn, $sql);
