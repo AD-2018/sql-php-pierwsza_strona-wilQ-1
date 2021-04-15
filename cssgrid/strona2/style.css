@@ -19,13 +19,13 @@ grid-area: a;
 height: 100vh; 
 }
 .yy{
-    background-color: lightgreen;
+    background-color: yellow;
     grid-area: b;
     height: 30vh;
     width: 100%;
 }
 .ww {
-background-color: aqua;
+background-color: yellow;
 grid-area: c;
 height: 40vh;
 }
@@ -35,12 +35,12 @@ height: 40vh;
     height: 70vh;
 }
 .ee{
-background-color: yellow;
+background-color: aqua;
 grid-area: e;
 height: 30vh;
 }
 .zolte {
-background-color: yellow;
+background-color: lightgreen;
 grid-area: f;
 height: 30vh;
 }
