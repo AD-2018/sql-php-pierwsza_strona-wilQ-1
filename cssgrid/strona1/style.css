@@ -13,7 +13,7 @@
     "a c d"
     "a e d";
 }
- .hh{
+ .skrypt1{
     background-color:lightgreen;
     grid-area: a;
     height: 100vh; 
@@ -23,7 +23,7 @@
     grid-area: b;
     height: 33vh;
 }
-.qq{
+.skrypt2{
 background-color: yellow;
 grid-area: c;
 height: 33vh;
@@ -33,7 +33,7 @@ height: 33vh;
     background-color: aqua;
     height: 33vh;
 }
-    .yy{
+    .skrypt3{
     background-color: green;   
     grid-area: d;
     height: 100vh;
