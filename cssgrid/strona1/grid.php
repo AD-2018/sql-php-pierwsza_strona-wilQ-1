@@ -20,7 +20,7 @@
                     }
 
                     echo('<table border="1">');
-                    echo('<th>imie i nazwisko</th><th>PRAWNIK</th><th>klasa</th>');
+                    echo('<th>imie i nazwisko</th><th>klasa</th><th>klasa</th>');
 
                     while($row=mysqli_fetch_assoc($result)){
                     echo('<tr>');
