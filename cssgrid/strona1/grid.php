@@ -11,7 +11,7 @@
    <body>
                                      
        <div class="container">
-         <div class="1">
+         <div class="jeden">
         <?php
          require_once("connect.php");
 
