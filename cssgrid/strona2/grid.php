@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <title>Bartosz Wilczek</title>
-        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <div class="container">
