@@ -13,7 +13,7 @@
        <div class="container">
          <div class="jeden">
         <?php
-         require_once("connect.php");
+         require_once("../../connect.php");
 
            echo("<br>Nauczyciele i klasy<br>");
                     $sql = "SELECT imie_nazwisko, klasa from Klasy, Nauczyciele where id_klasy=Id order by klasa asc";
