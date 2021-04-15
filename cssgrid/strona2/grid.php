@@ -3,6 +3,7 @@
     <head>
         <title>Bartosz Wilczek</title>
         <link rel="stylesheet" href="style.css"/>
+        <a class="panel" href="/cssgrid/index.php">Wróć</a>
     </head>
     <body>
         <div class="container">
