@@ -1,11 +1,11 @@
 * {
     margin: 0;
-    padding: 1;
+    padding: 0;
 }
 .container {
-    background-color: green;
-    paddomg: 5px;
-    height: 120vh;
+    background-color: white;
+    padding: 0;
+    height: 100vh;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: 
@@ -13,8 +13,28 @@
     "a c d"
     "a e d";
 }
-.jeden{
+ .hh{
     background-color:red;
     grid-area: a;
     height: 100vh; 
 }
+.ww{
+    background-color: lightgreen;
+    grid-area: b;
+    height: 33vh;
+}
+.qq{
+background-color: aqua;
+grid-area: c;
+height: 33vh;
+}
+ .ee{
+    grid-area: e;
+    background-color: green;
+    height: 33vh;
+}
+    .yy{
+    background-color: yellow;   
+    grid-area: d;
+    height: 100vh;
+    }
