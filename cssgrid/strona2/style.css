@@ -1,34 +1,46 @@
+* {
+    margin: 0;
+    padding: 1;
+}
 .container {
-    background-color: darkslategrey;
-   
+    background-color: white;
+    padding: 5px;
     height: 100vh;
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-areas: "a a b b b b" "a a c c f f" "a a d e f f";
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 
+    "a b b b"
+    "a c c d"
+    "a e f d";
 }
-
 .hh{
-    background-color:lightgreen;
-    grid-area: a;
-    height: 100vh; 
+background-color:red;
+grid-area: a;
+height: 100vh; 
 }
-.ww{
-    background-color: red;
+.yy{
+    background-color: lightgreen;
     grid-area: b;
-    height: 33vh;
+    height: 20vh;
+    width: 100%;
 }
-.qq{
-background-color: yellow;
+.ww {
+background-color: aqua;
 grid-area: c;
-height: 33vh;
+height: 40vh;
 }
- .ee{
-    grid-area: e;
-    background-color: aqua;
-    height: 33vh;
-}
-    .yy{
-    background-color: green;   
+.qq {
     grid-area: d;
-    height: 100vh;
-    }
+    background-color: orange;
+    height: 80vh;
+}
+.ee{
+background-color: yellow;
+grid-area: e;
+height: 40vh;
+}
+.zolte {
+background-color: yellow;
+grid-area: f;
+height: 40vh;
+}
