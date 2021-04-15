@@ -8,7 +8,7 @@
         <div class="container">
             <div class="hh">
                 <?php
-                    require_once("connect.php");
+                     require_once("connect.php");
                      
                     echo("<br>select * from Autorzy<br>");
                     $sql = "select * from Autorzy";
@@ -29,7 +29,6 @@
                     }
 
                     echo('</table>');
-
                 ?>
             </div>
             <div class="ee">
@@ -55,7 +54,6 @@
                     echo('</tr>');
                     }
                     echo('</table>');
-
 
                 ?>
             </div>
