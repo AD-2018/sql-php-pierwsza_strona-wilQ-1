@@ -10,7 +10,8 @@
    </head>  
    <body>
                                      
-       <div class="1">
+       <div class="container">
+         <div class="1">
         <?php
          require_once("connect.php");
 
@@ -33,5 +34,6 @@
 
                     echo('</table>');
                   ?>
+        </div>
 </body>
 </html>
