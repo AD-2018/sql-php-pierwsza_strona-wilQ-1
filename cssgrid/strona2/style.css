@@ -1,4 +1,4 @@
-.g {
+.container {
     background-color: darkslategrey;
    
     height: 100vh;
@@ -7,38 +7,28 @@
     grid-template-areas: "a a b b b b" "a a c c f f" "a a d e f f";
 }
 
-.a {
-    background-color: red;
+.hh{
+    background-color:lightgreen;
     grid-area: a;
-    margin: 3px;
+    height: 100vh; 
 }
-
-.b {
-    background-color: blue;
+.ww{
+    background-color: red;
     grid-area: b;
-    margin: 3px;
+    height: 33vh;
 }
-
-.c {
-    background-color: green;
-    grid-area: c;
-    margin: 3px;
+.qq{
+background-color: yellow;
+grid-area: c;
+height: 33vh;
 }
-
-.d {
-    background-color: yellow;
-    grid-area: d;
-    margin: 3px;
-}
-
-.e {
-    background-color: blueviolet;
+ .ee{
     grid-area: e;
-    margin: 3px;
+    background-color: aqua;
+    height: 33vh;
 }
-
-.f {
-    background-color: orange;
-    grid-area: f;
-    margin: 3px;
-}
+    .yy{
+    background-color: green;   
+    grid-area: d;
+    height: 100vh;
+    }
