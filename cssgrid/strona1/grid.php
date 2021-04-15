@@ -35,5 +35,6 @@
                     echo('</table>');
                   ?>
         </div>
+          </div>
 </body>
 </html>
