@@ -3,6 +3,8 @@
     $username = "219956";
     $password = "Galareta123";
     $dbname = "wilczekbartosz_sql";
+    $dbname = "wilczekbartosz_bibl";
+    
     $conn = new mysqli($servername, $username, $password, $dbname);
 
     if ($conn->connect_error) {
