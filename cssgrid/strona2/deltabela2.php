@@ -18,7 +18,7 @@ if ($conn->connect_error) {
 }
 
 
-$sql = "DELETE FROM Nauczyciele WHERE ID=".$_POST['ID'];
+$sql = "DELETE FROM Tytul WHERE ID=".$_POST['ID'];
 
 echo $sql;
 
