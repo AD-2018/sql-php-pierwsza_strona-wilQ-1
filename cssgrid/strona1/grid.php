@@ -25,7 +25,13 @@
 
                     while($row=mysqli_fetch_assoc($result)){
                     echo('<tr>');
-                    echo('<td>'.$row['imie_nazwisko'].'</td><td>'.$row['klasa'].'</td>');
+                    echo('<td>'.$row['imie_nazwisko'].'</td><td>'.$row['klasa'].'</td>''<td>
+
+                    <form action="delnauczyciele.php" method="POST">
+                            <input type="text" name="id" value="'.$row["id"].'" hidden>
+                            <input type="submit" value="Usun">
+                        </form>
+              </td>');
                     echo('</tr>');
                     }
 
