@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" href="style.css">
-    <title>Bartosz Wilczek</title>
-</head>
-<body>
     <?php
-echo("usuwanie");
-echo $_POST['ID'];
-
 require_once("connect.php");
 
 
@@ -30,5 +20,3 @@ if ($conn->query($sql) === TRUE) {
 
 $conn->close();
 ?>
-  </body>
-</html>
