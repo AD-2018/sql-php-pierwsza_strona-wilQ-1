@@ -11,8 +11,8 @@
                 <?php
                     require_once("connect.php");
                      
-                    echo("<br>SELECT imie_nazwisko, klasa from Klasy, Nauczyciele where id_klasy=Id order by klasa asc<br>");
-                    $sql = "SELECT imie_nazwisko, klasa from Klasy, Nauczyciele where id_klasy=Id order by klasa asc";
+                    echo("<br>SELECT id_naucz as ID, imie_nazwisko, klasa from Klasy, Nauczyciele where id_klasy=Id order by klasa asc<br>");
+                    $sql = "SELECT id_naucz as ID, imie_nazwisko, klasa from Klasy, Nauczyciele where id_klasy=Id order by klasa asc";
 
                     $result = mysqli_query($conn, $sql);
                     if ( $result) {
@@ -21,11 +21,11 @@
                     }
 
                     echo('<table border="1">');
-                    echo('<th>imie i nazwisko</th><th>klasa</th>');
+                    echo('<th>ID</th><th>imie i nazwisko</th><th>klasa</th>');
 
                     while($row=mysqli_fetch_assoc($result)){
                     echo('<tr>');
-                    echo('<td>'.$row['imie_nazwisko'].'</td><td>'.$row['klasa'].'</td>''<td>
+                    echo('<td>'.$row['id_naucz']'</td><td>'.$row['imie_nazwisko'].'</td><td>'.$row['klasa'].'</td>''<td>
 
                     <form action="delnauczyciele.php" method="POST">
                             <input type="text" name="id" value="'.$row["id"].'" hidden>
