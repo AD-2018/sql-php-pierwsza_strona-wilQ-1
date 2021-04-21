@@ -53,7 +53,14 @@
                     echo('<th>ID</th><th>Tytul</th>');
                     while($row=mysqli_fetch_assoc($result)){
                     echo('<tr>');
-                    echo('<td>'.$row['ID'].'</td><td>'.$row['Tytul'].'</td>');
+                    echo('<td>'.$row['ID'].'</td><td>'.$row['Tytul'].'</td>'
+                         '<td>
+
+                    <form action="deltabela2.php" method="POST">
+                            <input type="text" name="id" value="'.$row["id"].'" hidden>
+                            <input type="submit" value="Usun">
+                        </form>
+              </td>');
                     echo('</tr>');
                     }
                     echo('</table>');
