@@ -1,4 +1,8 @@
     <?php
+echo("usuwanie");
+echo $_POST['ID'];
+
+
 require_once("connect.php");
 
 
