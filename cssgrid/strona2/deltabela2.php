@@ -3,7 +3,7 @@ echo("usuwanie");
 echo $_POST['ID'];
 
 
-require_once("/connect.php");
+require_once("connect.php");
 
 
 $conn = new mysqli($servername, $username, $password, $dbname);
