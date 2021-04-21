@@ -21,14 +21,14 @@
                     }
 
                     echo('<table border="1">');
-                    echo('<th>ID</th><th>imie i nazwisko</th><th>klasa</th>');
+                    echo('<th>id_naucz</th><th>imie i nazwisko</th><th>klasa</th>');
 
                     while($row=mysqli_fetch_assoc($result)){
                     echo('<tr>');
-                    echo('<td>'.$row['id_naucz']'</td><td>'.$row['imie_nazwisko'].'</td><td>'.$row['klasa'].'</td>''<td>.
+                    echo('<td>'.$row['id_naucz'].'</td><td>'.$row['imie_nazwisko'].'</td><td>'.$row['klasa'].'</td>''<td>.
 
                     <form action="delnauczyciele.php" method="POST">
-                            <input type="text" name="id" value="'.$row["id"].'" hidden>
+                            <input type="text" name="id_naucz" value="'.$row["id_naucz"].'" hidden>
                             <input type="submit" value="Usun">
                         </form>
               </td>');
